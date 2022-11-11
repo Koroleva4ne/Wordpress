@@ -1,3 +1,5 @@
+@import "libs/bootstrap-reboot.min.css";
+@import "libs/fonts";
 @import "blocks/promo/promo";
 @import "blocks/waiting/waiting";
 @import "blocks/optimization/optimization";
@@ -7,9 +9,7 @@
 @import "blocks/footer/footer";
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -27,7 +27,7 @@
 
 .header {
     line-height: 27px;
-    font-family: 'Roboto Light', sans-serif;
+    font-weight: 300;
     font-size: 30px;
     text-align: center;
     text-transform: uppercase;

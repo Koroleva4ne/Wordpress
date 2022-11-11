@@ -8,7 +8,7 @@
     }
     &__text {
         margin-top: 42px;
-        font-family: 'Roboto Light', sans-serif;
+        font-weight: 300;
         font-size: 30px;
         text-align: center;
         color: #252525;
@@ -23,8 +23,7 @@
         box-shadow: inset 0px -5px 0 0 rgba(0, 0, 0, 0.18);
         border: 0 0 4px 0 rgba(0, 0, 0, 0.11);
         background-image: linear-gradient(to top, #2798b9, #3ab6da);
-        font-family: 'Roboto Bold', sans-serif;
-        font-weight: normal;
+        font-weight: 700;
         text-align: center;
         color: #fff;
         text-transform: uppercase;
