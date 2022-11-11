@@ -13,7 +13,7 @@
         font-size: 36px;
         line-height: 26px;
         text-align: center;
-        color: #299cbd;
+        color: $text-color-blue;
         text-transform: uppercase;
     }
     &__text {
@@ -22,6 +22,6 @@
         font-size: 23px;
         line-height: 23px;
         text-align: center;
-        color: #4a4a4a;
+        color: $text-color-dark-grey;
     }
 }

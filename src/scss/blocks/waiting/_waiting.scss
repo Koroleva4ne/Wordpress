@@ -1,6 +1,6 @@
 .waiting {
     min-height: 604px;
-    background-color: #efefef;
+    background-color: $bg-color-gray;
     padding: 85px 0 75px 0;
     .divider {
         margin-top: 18px;
@@ -11,7 +11,7 @@
         font-size: 23px;
         line-height: 23px;
         text-align: center;
-        color: #4a4a4a;
+        color: $text-color-dark-grey;
     }
     &__wrapper {
         display: flex;
@@ -31,6 +31,6 @@
         font-weight: 300;
         font-size: 15px;
         line-height: 21px;
-        color: #4a4a4a;
+        color: $text-color-dark-grey;
     }
 }

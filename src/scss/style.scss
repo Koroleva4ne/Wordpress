@@ -1,5 +1,6 @@
 @import "libs/bootstrap-reboot.min.css";
 @import "libs/fonts";
+@import "blocks/bottons";
 @import "blocks/promo/promo";
 @import "blocks/waiting/waiting";
 @import "blocks/optimization/optimization";
@@ -22,7 +23,7 @@
     margin: 0 auto;
     width: 217px;
     height: 4px;
-    background-color: #f9bf3b;
+    background-color: $color-yellow;
 }
 
 .header {

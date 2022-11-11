@@ -12,7 +12,7 @@
             font-weight: 500;
             font-size: 15px;
             text-align: center;
-            color: #fff;
+            color: $text-color-white;
             text-transform: uppercase;
             margin-top: 14px;
         }
@@ -26,14 +26,14 @@
         font-weight: 900;
         font-size: 41px;
         text-align: center;
-        color: #f9bf3b;
+        color: $color-yellow;
         text-transform: uppercase;
         &_big {
             font-weight: 900;
             font-size: 80px;
             line-height: 59px;
             text-align: center;
-            color: #fff;
+            color: $text-color-white;
             text-transform: uppercase;
             margin-top: 21px;
         }
@@ -50,29 +50,17 @@
         padding: 0 13px;
         line-height: 28px;
         text-align: center;
-        color: #fff;
+        color: $text-color-white;
         span {
             font-weight: 900;
-            color: #f9bf3b;
+            color: $color-yellow;
         }        
     }
     &__btn {
-        display: block;
-        margin: 0 auto;
         margin-top: 73px;
-        padding: 28px 30px 29px 29px;
-        width: 313px;
-        height: 72px;
-        line-height: 15px;
-        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
         border-bottom: solid 4px rgba(0, 0, 0, 0.23);
-        background-image: linear-gradient(to top, #2798b9, #3ab6da);
         text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
         font-weight: 900;
-        text-align: center;
-        color: #fff;
-        text-transform: uppercase;
-        cursor: pointer;
     }
     &__more {
         margin-top: 73px;
@@ -81,7 +69,7 @@
             font-weight: 100;
             font-size: 15px;
             text-align: center;
-            color: #fff;
+            color: $text-color-white;
             text-transform: uppercase;
         }
         &-img {

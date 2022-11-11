@@ -7,7 +7,7 @@
     }
     .header {
         line-height: 21px;
-        color: #efefef;
+        color: $text-color-gray;
     }
     &__wrapper {
         margin-top: 41px;
@@ -33,6 +33,6 @@
         font-weight: 300;
         font-size: 17px;
         line-height: 20px;
-        color: #efefef;
+        color: $text-color-gray;
     }
 }
