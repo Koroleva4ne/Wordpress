@@ -1,0 +1,27 @@
+.first_webinar {
+    margin: 82px 0 64px 0;
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    .header {
+        margin-top: 37px;
+    }
+    &__time {
+        margin-top: 30px;
+        font-family: 'Roboto Black', sans-serif;
+        font-size: 36px;
+        line-height: 26px;
+        text-align: center;
+        color: #299cbd;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 25px;
+        font-family: 'Roboto Light', sans-serif;
+        font-size: 23px;
+        line-height: 23px;
+        text-align: center;
+        color: #4a4a4a;
+    }
+}

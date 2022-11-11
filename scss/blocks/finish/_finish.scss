@@ -1,0 +1,38 @@
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/second_bg.jpg') center center/cover no-repeat;
+    .divider {
+        margin-top: 23px;
+    }
+    .header {
+        line-height: 21px;
+        color: #efefef;
+    }
+    &__wrapper {
+        margin-top: 41px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        width: 204px;
+    }
+    &__round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 115px;
+        height: 115px;
+        background-color: #b4e2ff;
+        border-radius: 100%;
+    }
+    &__descr {
+        margin-top: 25px;
+        text-align: center;
+        font-family: 'Roboto Light', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+        color: #efefef;
+    }
+}

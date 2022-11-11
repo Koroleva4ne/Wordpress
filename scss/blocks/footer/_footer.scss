@@ -1,0 +1,26 @@
+.footer {
+    height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+    &__info {
+        margin: 0 auto;
+        width: 377px;
+        text-align: center;
+        color: #888888;
+    }
+    a {
+        min-height: 36px;
+        font-family: 'Roboto Light', sans-serif;
+        font-size: 15px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 21px;
+        letter-spacing: normal;
+        text-align: center;
+        color: #888;
+        text-decoration: none;
+    }
+    &__link {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,35 @@
+@import "blocks/promo/promo";
+@import "blocks/waiting/waiting";
+@import "blocks/optimization/optimization";
+@import "blocks/finish/finish";
+@import "blocks/gift/gift";
+@import "blocks/first-webinar/first-webinar";
+@import "blocks/footer/footer";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.divider {
+    margin: 0 auto;
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+}
+
+.header {
+    line-height: 27px;
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}

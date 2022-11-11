@@ -1,0 +1,27 @@
+.optimization {
+    margin: 102px 0 107px 0;
+    .header {
+        margin-left: 388px;
+        font-family: 'Roboto Black', sans-serif;
+        font-size: 29px;
+        text-align: left;
+        color: #299cbd;
+    }
+    &__text {
+        margin-top: 25px;
+        margin-left: 388px;
+        font-family: 'Roboto Light', sans-serif;
+        font-size: 17px;
+        line-height: 21px;
+        color: #4a4a4a;
+        span {
+            font-family: 'Roboto Bold', sans-serif;
+        }
+    }
+    &__img {
+        position: absolute;
+        top: -54px;
+        left: -240px;
+        z-index: -1;
+    }
+}
