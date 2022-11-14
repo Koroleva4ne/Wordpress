@@ -8,7 +8,7 @@
         text-align: center;
         color: #888888;
     }
-    a {
+    &__link{
         min-height: 36px;
         font-weight: 300;
         font-size: 15px;
@@ -16,8 +16,8 @@
         text-align: center;
         color: #888;
         text-decoration: none;
-    }
-    &__link {
-        text-decoration: underline;
+        &_underline {
+            text-decoration: underline;
+        }
     }
 }

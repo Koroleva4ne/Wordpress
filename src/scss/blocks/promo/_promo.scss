@@ -32,19 +32,30 @@
             font-weight: 900;
             font-size: 80px;
             line-height: 59px;
-            text-align: center;
             color: $text-color-white;
             text-transform: uppercase;
-            margin-top: 21px;
+            margin: 0 20px;
         }
         &_m-t {
             margin-top: 30px;
             line-height: 36px;
         }
     }
+    &__simple {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 21px;
+        hr {
+            margin: 0;
+            width: 292px;
+            height: 2px;
+            color: #fff;
+        }
+    }
     &__text {
         min-height: 76px;
-        tab-size: 21px;
+        font-size: 21px;
         font-weight: 300;
         margin-top: 23px;
         padding: 0 13px;
@@ -58,9 +69,7 @@
     }
     &__btn {
         margin-top: 73px;
-        border-bottom: solid 4px rgba(0, 0, 0, 0.23);
         text-shadow: -0.7px -0.7px 0 rgba(0, 0, 0, 0.22);
-        font-weight: 900;
     }
     &__more {
         margin-top: 73px;

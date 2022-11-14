@@ -47,3 +47,13 @@
     font-weight: 900;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoCondensed-Regular.eot');
+    src: url('RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('RobotoCondensed-Regular.woff') format('woff'),
+    url('RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
