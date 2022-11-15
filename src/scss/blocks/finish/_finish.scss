@@ -10,12 +10,14 @@
         color: $text-color-gray;
     }
     &__wrapper {
-        margin-top: 41px;
+        margin: 41px -18px 0 -18px;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
     &__item {
-        width: 204px;
+        width: 195px;
+        margin: 0 18px;
     }
     &__round {
         display: flex;

@@ -14,12 +14,16 @@
         color: $text-color-dark-grey;
     }
     &__wrapper {
-        display: flex;
-        justify-content: space-between;
         margin-top: 45px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 342px);
+        grid-template-rows: auto;
+        column-gap: 48px;
+        row-gap: 28px;
+        justify-items: center;
+        justify-content: center;
     }
     &__item {
-        width: 339px;
         text-align: center;
     }
     &__img {

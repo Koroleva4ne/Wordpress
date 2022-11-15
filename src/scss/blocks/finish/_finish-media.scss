@@ -1,0 +1,32 @@
+.finish {
+    @media screen and ( max-width: 1176px ) {
+        padding-bottom: 43px;
+        &__wrapper {
+            margin: 41px 0 0 0;
+            justify-content: center;
+        }
+        &__item {
+            margin-bottom: 36px;
+        }
+    }
+    @media screen and ( max-width: 663px ) {
+        padding-top: 46px;
+        padding-bottom: 10px;
+        .header {
+            font-size: 26px;
+        }
+    }
+    @media screen and ( max-width: 582px ) {
+        .header {
+            font-size: 24px;
+        }
+    }
+    @media screen and ( max-width: 512px ) {
+        .header {
+            font-size: 18px;
+        }
+        &__descr {
+            font-size: 14px;
+        }
+    }
+}

@@ -3,7 +3,7 @@
     margin: 0 auto;
     width: 313px;
     height: 72px;
-    padding: 28px 30px 25px 29px;
+    padding: 28px 0 25px 0;
     box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.23);
     background-image: linear-gradient(to top, #2798b9, #3ab6da);
     border: 0;
@@ -15,4 +15,8 @@
     color: $text-color-white;
     text-transform: uppercase;
     cursor: pointer;
+    &:active {
+        background-image: none;
+        background-color: #2798b9;
+    }
 }

@@ -1,23 +1,32 @@
 .footer {
-    height: 166px;
+    min-height: 112px;
     padding: 61px 0 69px 0;
     background-color: #1a1a1a;
     &__info {
         margin: 0 auto;
-        width: 377px;
         text-align: center;
         color: #888888;
+        font-size: 15px;
     }
-    &__link{
-        min-height: 36px;
+    &__links {
+        display: flex;
+        justify-content: center;
+    }
+    &__link, &__tel {
         font-weight: 300;
         font-size: 15px;
         line-height: 21px;
         text-align: center;
+        margin: 0 5px;
         color: #888;
-        text-decoration: none;
-        &_underline {
-            text-decoration: underline;
+        &:first-of-type {
+            margin-left: 0;
         }
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+    &__tel {
+        text-decoration: none;
     }
 }

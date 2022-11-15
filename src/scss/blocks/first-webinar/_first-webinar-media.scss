@@ -1,0 +1,52 @@
+.first-webinar {
+    @media screen and (max-width: 767px) {
+        margin: 42px 0 34px 0;
+    }
+    @media screen and (max-width: 636px) {
+        .header {
+            font-size: 26px;
+        }
+        &__time {
+            font-size: 32px;
+        }
+        &__text {
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width: 542px) {
+        .header {
+            margin-top: 26px;
+            font-size: 22px;
+            line-height: 18px;
+        }
+        &__time {
+            margin-top: 26px;
+            font-size: 28px;
+            line-height: 22px;
+        }
+        &__text {
+            line-height: 18px;
+        }
+    }
+    @media screen and (max-width: 478px) {
+        .header {
+            font-size: 18px;
+        }
+        &__time {
+            font-size: 22px;
+        }
+    }
+    @media screen and (max-width: 372px) {
+        .header, &__text {
+            font-size: 14px;
+        }
+        &__time {
+            font-size: 18px;
+        }
+    }
+    @media screen and (max-width: 361px) {
+        &__img {
+            width: 100%;
+        }
+    }
+}

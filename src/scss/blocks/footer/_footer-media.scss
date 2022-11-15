@@ -1,0 +1,10 @@
+.footer {
+    @media screen and (max-width: 767px) {
+        padding: 31px 0 39px 0;
+    }
+    @media screen and (max-width: 389px) {
+        &__link, &__info, &__tel {
+            font-size: 12px;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.optimization {
+    @media screen and ( max-width: 1169px ) {
+        .header {
+            font-size: 26px;
+        }
+        &__text {
+            font-size: 14px;
+        }
+    }
+    @media screen and ( max-width: 1078px ) {
+        .header {
+            font-size: 22px;
+        }
+    }
+    @media screen and ( max-width: 991px ) {
+        margin: 52px 0 57px 0;
+        .header, &__text {
+            margin-left: 0;
+        }
+        &__img {
+            display: none;
+        }
+    }
+    @media screen and ( max-width: 424px ) {
+        .header {
+            font-size: 18px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+    }
+}

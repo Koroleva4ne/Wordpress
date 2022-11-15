@@ -1,0 +1,31 @@
+.gift {
+    @media screen and (max-width: 767px) {
+        padding: 56px 0 57px 0;
+        &__text {
+            font-size: 26px;
+            line-height: 30px;
+        }
+    }
+    @media screen and (max-width: 575px) {
+        &__text {
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    @media screen and (max-width: 340px) {
+        &__text {
+            margin-top: 28px;
+            font-size: 16px;
+        }
+        &__btn {
+            margin-top: 38px;
+            width: calc(100% - 8px);
+            font-size: 14px;
+        }
+    }
+    @media screen and (max-width: 280px) {
+        &__btn {
+            font-size: 12px;
+        }
+    }
+}

@@ -1,5 +1,5 @@
 .gift {
-    height: 628px;
+    min-height: 560px;
     padding: 86px 0 87px 0;
     background-color: $bg-color-gray;
     &__icon {
@@ -11,6 +11,7 @@
         font-weight: 300;
         font-size: 30px;
         text-align: center;
+        line-height: 38px;
         color: #252525;
     }
     &__btn {

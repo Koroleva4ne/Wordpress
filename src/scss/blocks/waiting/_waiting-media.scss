@@ -1,0 +1,38 @@
+.waiting {
+    @media screen and (max-width: 612px) {
+        .header {
+            font-size: 26px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 532px) {
+        padding: 55px 0 45px 0;
+        .header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+    }
+    @media screen and (max-width: 361px) {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fill, 242px);
+        }
+        &__descr {
+            font-size: 12px;
+        }
+    }
+    @media screen and (max-width: 319px) {
+        &__wrapper {
+            grid-template-columns: repeat(auto-fill, 220px);
+        }
+        .header {
+            font-size: 18px;
+        }
+        &__subheader {
+            font-size: 14px;
+        }
+    }
+}
