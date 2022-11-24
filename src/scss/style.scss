@@ -16,6 +16,8 @@
 @import "blocks/first-webinar/first-webinar-media";
 @import "blocks/footer/footer";
 @import "blocks/footer/footer-media";
+@import "blocks/modal/modal";
+@import "blocks/modal/modal-media";
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -50,4 +52,12 @@
     text-align: center;
     text-transform: uppercase;
     color: #252525;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
 }

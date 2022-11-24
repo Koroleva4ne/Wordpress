@@ -1,0 +1,23 @@
+.modal {
+    @media screen and ( max-width: 374px ) {
+        &__title {
+            font-size: 18px;
+        }
+    }
+    @media screen and ( max-width: 342px ) {
+        &__title {
+            font-size: 14px;
+        }
+        .input {
+            height: 40px;
+        }
+        .approval {
+            font-size: 10px;
+        }
+        &__btn {
+            font-size: 14px;
+            width: 140px;
+            height: 40px;
+        }
+    }
+}
